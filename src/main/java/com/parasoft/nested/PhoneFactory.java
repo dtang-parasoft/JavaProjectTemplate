@@ -10,6 +10,7 @@ public class PhoneFactory {
     }
 
     public enum Brand {
+
         APPLE, DEFAULT
     }
 
