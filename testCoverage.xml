@@ -3,7 +3,7 @@
 	<packages>
 		<package name="&lt;default&gt;" line-rate="1">
 			<classes>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/Calculator.java" name="Calculator" line-rate="1">
+				<class filename="src/main/java/Calculator.java" name="Calculator" line-rate="1">
 					<lines>
 						<line number="3" hits="2"/>
 						<line number="5" hits="2"/>
@@ -12,7 +12,7 @@
 						<line number="9" hits="1"/>
 					</lines>
 				</class>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/Calculator.java" name="Calculator#Screen" line-rate="1">
+				<class filename="src/main/java/Calculator.java" name="Calculator#Screen" line-rate="1">
 					<lines>
 						<line number="15" hits="2"/>
 						<line number="16" hits="2"/>
@@ -21,7 +21,7 @@
 						<line number="21" hits="1"/>
 					</lines>
 				</class>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/Calculator.java" name="Calculator#Screen#Brightness" line-rate="1">
+				<class filename="src/main/java/Calculator.java" name="Calculator#Screen#Brightness" line-rate="1">
 					<lines>
 						<line number="23" hits="3"/>
 						<line number="24" hits="1"/>
@@ -31,14 +31,14 @@
 		</package>
 		<package name="com.parasoft" line-rate="0.5714285714285714">
 			<classes>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/com/parasoft/Convertor.java" name="com.parasoft.Convertor" line-rate="0.666666666666666667">
+				<class filename="src/main/java/com/parasoft/Convertor.java" name="com.parasoft.Convertor" line-rate="0.666666666666666667">
 					<lines>
 						<line number="5" hits="3"/>
 						<line number="7" hits="3"/>
 						<line number="12" hits="0"/>
 					</lines>
 				</class>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/com/parasoft/Convertorm.java" name="com.parasoft.Convertorm" line-rate="0.5">
+				<class filename="src/main/java/com/parasoft/Convertorm.java" name="com.parasoft.Convertorm" line-rate="0.5">
 					<lines>
 						<line number="5" hits="1"/>
 						<line number="7" hits="0"/>
@@ -50,7 +50,7 @@
 		</package>
 		<package name="com.parasoft.another" line-rate="1">
 			<classes>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/com/parasoft/another/Convertor.java" name="com.parasoft.another.Convertor" line-rate="1">
+				<class filename="src/main/java/com/parasoft/another/Convertor.java" name="com.parasoft.another.Convertor" line-rate="1">
 					<lines>
 						<line number="5" hits="2"/>
 						<line number="10" hits="1"/>
@@ -61,7 +61,7 @@
 		</package>
 		<package name="com.parasoft.interfaces2" line-rate="1">
 			<classes>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/com/parasoft/interfaces2/ICalculator.java" name="com.parasoft.interfaces2.ICalculator" line-rate="1">
+				<class filename="src/main/java/com/parasoft/interfaces2/ICalculator.java" name="com.parasoft.interfaces2.ICalculator" line-rate="1">
 					<lines>
 						<line number="9" hits="1"/>
 					</lines>
@@ -70,13 +70,13 @@
 		</package>
 		<package name="com.parasoft.nested" line-rate="0.5882352941176471">
 			<classes>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/com/parasoft/nested/PhoneFactory.java" name="com.parasoft.nested.PhoneFactory" line-rate="0.5">
+				<class filename="src/main/java/com/parasoft/nested/PhoneFactory.java" name="com.parasoft.nested.PhoneFactory" line-rate="0.5">
 					<lines>
 						<line number="6" hits="0"/>
 						<line number="9" hits="1"/>
 					</lines>
 				</class>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/com/parasoft/nested/PhoneFactory.java" name="com.parasoft.nested.PhoneFactory#Phone" line-rate="0.538461538461538462">
+				<class filename="src/main/java/com/parasoft/nested/PhoneFactory.java" name="com.parasoft.nested.PhoneFactory#Phone" line-rate="0.538461538461538462">
 					<lines>
 						<line number="25" hits="0"/>
 						<line number="26" hits="0"/>
@@ -93,7 +93,7 @@
 						<line number="48" hits="1"/>
 					</lines>
 				</class>
-				<class filename="file://CD-DTANG/C:/Users/Tang/.jenkins/workspace/freeWithoutCode/src/main/java/com/parasoft/nested/PhoneFactory.java" name="com.parasoft.nested.PhoneFactory#Brand" line-rate="1">
+				<class filename="src/main/java/com/parasoft/nested/PhoneFactory.java" name="com.parasoft.nested.PhoneFactory#Brand" line-rate="1">
 					<lines>
 						<line number="12" hits="3"/>
 						<line number="14" hits="1"/>
