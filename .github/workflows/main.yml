@@ -23,7 +23,10 @@ jobs:
     steps:
       # Checks out your repository under $GITHUB_WORKSPACE, so that your job can access it.
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          clean: true
 
       
 
