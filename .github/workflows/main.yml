@@ -2,11 +2,6 @@ name: Parasoft Coverage
 
 on:
   # Trigger the workflow on push or pull request events but only for the master (main) branch.
-  push:
-    branches: [ dtang-parasoft-patch-1 ]
-  pull_request:
-    branches: [ dtang-parasoft-patch-1 ]
-
   # Allows you to run this workflow manually from the Actions tab.
   workflow_dispatch:
 
