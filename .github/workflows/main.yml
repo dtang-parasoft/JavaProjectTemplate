@@ -24,7 +24,7 @@ jobs:
       # Checks out your repository under $GITHUB_WORKSPACE, so that your job can access it.
       - name: Cleanup temp directories
         run: |
-          if exist "D:\githubRunner\_work\_temp" rmdir /s /q "D:\githubRunner\_work\_temp"
+          if exist "D:\githubRunner\_work\_temp" rmdir /s /q "D:\githubRunner\_work\_temp" timeout /t 5
 
       - name: Checkout repository
         uses: actions/checkout@v4
