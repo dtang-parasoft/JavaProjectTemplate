@@ -4,14 +4,11 @@ on:
 permissions:
     checks: write
     contents: write
-    actions: read
 
 jobs:
   build:
     name: Parasoft Coverage Action
     runs-on: self-hosted
-    strategy:
-      max-parallel: 1
 
     steps:
 
