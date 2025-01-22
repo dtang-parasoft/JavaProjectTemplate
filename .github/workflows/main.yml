@@ -14,12 +14,6 @@ jobs:
       max-parallel: 1
 
     steps:
-      - name: Cleanup temp directories
-        run: |
-          if exist "D:\githubRunner\_work\_temp" rmdir /s /q "D:\githubRunner\_work\_temp"
-
-      - name: Wait for resource release
-        run: timeout /t 5
 
       - name: Checkout repository
         uses: actions/checkout@v4
