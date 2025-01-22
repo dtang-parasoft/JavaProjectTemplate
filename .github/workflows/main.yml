@@ -1,0 +1,25 @@
+name: Parasoft Coverage
+on:
+  workflow_dispatch:
+permissions:
+    checks: write
+    contents: write
+
+jobs:
+  build:
+    name: Parasoft Coverage Action
+    runs-on: self-hosted
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          clean: true
+
+
+      - name: Parasoft Coverage
+        uses: parasoft/parasoft-coverage-action@don_cicd985
+        with:
+            report: '**/coverage.xml'          
