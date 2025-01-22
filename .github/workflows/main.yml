@@ -20,6 +20,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
       # Checks out your repository under $GITHUB_WORKSPACE, so that your job can access it.
+      - name: Cleanup temp directories
+        run: |
+          if exist "D:\githubRunner\_work\_temp" rmdir /s /q "D:\githubRunner\_work\_temp"
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
