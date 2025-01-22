@@ -1,27 +1,18 @@
 name: Parasoft Coverage
-
 on:
-  # Trigger the workflow on push or pull request events but only for the master (main) branch.
-  # Allows you to run this workflow manually from the Actions tab.
   workflow_dispatch:
 permissions:
     checks: write
     contents: write
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 jobs:
   build:
-    # Specifies the name of the job.
     name: Parasoft Coverage Action
-
-    # Specifies the type of runner that the job will run on.
     runs-on: self-hosted
     strategy:
       max-parallel: 1
 
-    # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
-      # Checks out your repository under $GITHUB_WORKSPACE, so that your job can access it.
       - name: Cleanup temp directories
         run: |
           if exist "D:\githubRunner\_work\_temp" rmdir /s /q "D:\githubRunner\_work\_temp" timeout /t 5
@@ -32,13 +23,8 @@ jobs:
           # persist-credentials: false
           clean: true
 
-      
 
-      # Execute the Parasoft Coverage action.
       - name: Parasoft Coverage
         uses: parasoft/parasoft-coverage-action@don_cicd985
         with:
-            # Path or minimatch pattern to locate Parasoft coverage report files. If using a relative path, it is relative to the GitHub workspace directory.
-            report: '**/coverage.xml'
-            # Root path to the Parasoft tool or Java installation required to locate the Java environment for report processing. If not specified, the GitHub Action will attempt to use the path from the JAVA_HOME environment variable.
-          
+            report: '**/coverage.xml'          
