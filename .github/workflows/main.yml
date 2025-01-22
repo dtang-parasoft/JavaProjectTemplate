@@ -4,6 +4,7 @@ on:
 permissions:
     checks: write
     contents: write
+    actions: read
 
 jobs:
   build:
@@ -15,7 +16,10 @@ jobs:
     steps:
       - name: Cleanup temp directories
         run: |
-          if exist "D:\githubRunner\_work\_temp" rmdir /s /q "D:\githubRunner\_work\_temp" timeout /t 5
+          if exist "D:\githubRunner\_work\_temp" rmdir /s /q "D:\githubRunner\_work\_temp"
+
+      - name: Wait for resource release
+        run: timeout /t 5
 
       - name: Checkout repository
         uses: actions/checkout@v4
