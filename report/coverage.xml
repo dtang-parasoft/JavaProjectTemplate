@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Coverage ver="2" toolVer="2024.2.0" execEnv="win32_x86_64" hasViols="false" project="CICD_JavaProjectTemplate" buildId="CICD_JavaProjectTemplate-2025-02-10" climode="true" toolDispName="Jtest" prjModule="com.parasoft:project-with-default-package" toolId="jtest" machine="CD-DTANG" tag="Unit Tests-com.parasoft:project-with-default-package-${scontrol_branch}-win32_x86_64" time="2025-02-10T10:30:57+08:00" id="1738927165491" lang="zh_CN" user="dtang" toolName="DTP Engine for Java">
+<Coverage ver="2" toolVer="2024.2.0" execEnv="win32_x86_64" hasViols="false" project="CICD_JavaProjectTemplate" buildId="CICD_JavaProjectTemplate-2025-02-10" climode="true" toolDispName="Jtest" prjModule="com.parasoft:project-with-default-package" toolId="jtest" machine="CD-DTANG" tag="Unit Tests-com.parasoft:project-with-default-package-${scontrol_branch}-win32_x86_64" time="2025-02-10T10:33:15+08:00" id="1738927303436" lang="zh_CN" user="dtang" toolName="DTP Engine for Java">
 	<TestConfig machine="CD-DTANG" pseudoUrl="builtin://Unit Tests" name="Unit Tests" user="dtang"/>
 	<VersionInfos>
 		<VersionInfo id="LC" ver="1"/>
 	</VersionInfos>
 	<Repositories/>
 	<Locations>
-		<Loc locRef="1" projId="com.parasoft:project-with-default-package" covId="516238227,1495237307,-1072665781" sym=".Calculator$Screen$Brightness:-1072665781;.Calculator$Screen:1495237307;.Calculator:516238227" project="com.parasoft:project-with-default-package" binHash="1125648815;4019126642;3238177698" resProjPath="src/main/java/Calculator.java" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/Calculator.java" projPath="/com.parasoft:project-with-default-package" hash="1741334343"/>
+		<Loc locRef="1" projId="com.parasoft:project-with-default-package" covId="516238233,1495237313,-1072665775" sym=".Calculator$Screen$Brightness:-1072665775;.Calculator$Screen:1495237313;.Calculator:516238233" project="com.parasoft:project-with-default-package" binHash="2803910048;1902247076;3958753913" resProjPath="src/main/java/Calculator.java" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/Calculator.java" projPath="/com.parasoft:project-with-default-package" hash="841989303"/>
 		<Loc locRef="2" projId="com.parasoft:project-with-default-package" covId="1022206551" sym="com.parasoft.Convertor:1022206551" project="com.parasoft:project-with-default-package" binHash="3583135400" resProjPath="src/main/java/com/parasoft/Convertor.java" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/com/parasoft/Convertor.java" projPath="/com.parasoft:project-with-default-package" hash="-662881149"/>
 		<Loc locRef="3" projId="com.parasoft:project-with-default-package" covId="-563343906" sym="com.parasoft.another.Convertor:-563343906" project="com.parasoft:project-with-default-package" binHash="2504401132" resProjPath="src/main/java/com/parasoft/another/Convertor.java" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/com/parasoft/another/Convertor.java" projPath="/com.parasoft:project-with-default-package" hash="-1958751415"/>
 		<Loc locRef="4" projId="com.parasoft:project-with-default-package" covId="2052078762" sym="com.parasoft.interfaces2.ICalculator:2052078762" project="com.parasoft:project-with-default-package" binHash="4252642909" resProjPath="src/main/java/com/parasoft/interfaces2/ICalculator.java" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/com/parasoft/interfaces2/ICalculator.java" projPath="/com.parasoft:project-with-default-package" hash="667442694"/>
@@ -26,7 +26,7 @@
 		<CvgData locRef="1">
 			<Stats>
 				<Item itemRef="1" id="Calculator.java#Calculator" name="Calculator">
-					<Item itemRef="2" id="Calculator.java#Calculator#add#(II)I" name="add( int, int )" hash="-1071357048"/>
+					<Item itemRef="2" id="Calculator.java#Calculator#add#(II)I" name="add( int, int )" hash="-51641882"/>
 					<Item itemRef="3" id="Calculator.java#Calculator#&lt;init>#()V" name="Calculator()" hash="-2017548674"/>
 					<Item itemRef="4" id="Calculator.java#Calculator#Calculator$Screen" name="Calculator$Screen">
 						<Item itemRef="5" id="Calculator.java#Calculator#Calculator$Screen#&lt;init>#(LCalculator$Screen$Brightness;)V" name="Calculator$Screen( Calculator$Screen$Brightness )" hash="-948402383"/>
@@ -40,32 +40,32 @@
 				</Item>
 			</Stats>
 			<Static>
-				<StatCvg itemRef="8" elems="23 24" hashes="-619022508 -1760446347"/>
-				<StatCvg itemRef="5" elems="15 16 17" hashes="1528369737 320737896 1508372605"/>
-				<StatCvg itemRef="9" elems="23" hashes="-619022508"/>
-				<StatCvg itemRef="2" elems="7 8 9" hashes="1928371266 1284531579 363132110"/>
+				<StatCvg itemRef="8" elems="29 30" hashes="-619022508 -1760446347"/>
+				<StatCvg itemRef="5" elems="21 22 23" hashes="1528369737 320737896 1508372605"/>
+				<StatCvg itemRef="9" elems="29" hashes="-619022508"/>
+				<StatCvg itemRef="2" elems="7 8 9 10 11 12 15" hashes="1928371266 1284531579 520729948 520729948 520729948 950115456 363132110"/>
 				<StatCvg itemRef="3" elems="3 5" hashes="707665141 -2008629378"/>
-				<StatCvg itemRef="10" elems="23" hashes="-619022508"/>
-				<StatCvg itemRef="6" elems="20 21" hashes="-1397641892 1508372605"/>
+				<StatCvg itemRef="10" elems="29" hashes="-619022508"/>
+				<StatCvg itemRef="6" elems="26 27" hashes="-1397641892 1508372605"/>
 			</Static>
 			<Dynamic>
 				<DynCvg itemRef="8">
-					<CtxCvg testRefs="1" elemRefs="23 24"/>
+					<CtxCvg testRefs="1" elemRefs="29 30"/>
 				</DynCvg>
 				<DynCvg itemRef="9">
-					<CtxCvg testRefs="1" elemRefs="23"/>
+					<CtxCvg testRefs="1" elemRefs="29"/>
 				</DynCvg>
 				<DynCvg itemRef="5">
-					<CtxCvg testRefs="1 2" elemRefs="15 16 17"/>
+					<CtxCvg testRefs="1 2" elemRefs="21 22 23"/>
 				</DynCvg>
 				<DynCvg itemRef="6">
-					<CtxCvg testRefs="1" elemRefs="20 21"/>
+					<CtxCvg testRefs="1" elemRefs="26 27"/>
 				</DynCvg>
 				<DynCvg itemRef="10">
-					<CtxCvg testRefs="1" elemRefs="23"/>
+					<CtxCvg testRefs="1" elemRefs="29"/>
 				</DynCvg>
 				<DynCvg itemRef="2">
-					<CtxCvg testRefs="1" elemRefs="7 8 9"/>
+					<CtxCvg testRefs="1" elemRefs="7 8 9 10 11 12 15"/>
 				</DynCvg>
 				<DynCvg itemRef="3">
 					<CtxCvg testRefs="1 2" elemRefs="3 5"/>

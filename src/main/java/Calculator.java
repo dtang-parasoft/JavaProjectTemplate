@@ -6,6 +6,12 @@ public class Calculator implements ICalculator {
     public int add(int a, int b) {
         int result = a + b;
         screen.showResult(result);
+        System.out.println("The result is: " + result);
+        System.out.println("The result is: " + result);
+        System.out.println("The result is: " + result);
+        System.out.println("The result is: " + result);System.out.println("The result is: " + result);
+
+
         return result;
     }
 

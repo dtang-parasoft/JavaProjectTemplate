@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="CICD_JavaProjectTemplate-2025-02-10" climode="true" endTime="2025-02-10T10:30:58+08:00" execEnv="win32_x86_64" hasViols="false" id="1738927164778" lang="zh_CN" machine="CD-DTANG" prjModule="com.parasoft:project-with-default-package" project="CICD_JavaProjectTemplate" tag="Unit Tests-com.parasoft:project-with-default-package-${scontrol_branch}-win32_x86_64" time="2025-02-10T10:30:57+08:00" toolDispName="Jtest" toolId="jtest" toolName="DTP Engine for Java" toolVer="2024.2.0" user="dtang">
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="CICD_JavaProjectTemplate-2025-02-10" climode="true" endTime="2025-02-10T10:33:15+08:00" execEnv="win32_x86_64" hasViols="false" id="1738927302455" lang="zh_CN" machine="CD-DTANG" prjModule="com.parasoft:project-with-default-package" project="CICD_JavaProjectTemplate" tag="Unit Tests-com.parasoft:project-with-default-package-${scontrol_branch}-win32_x86_64" time="2025-02-10T10:33:15+08:00" toolDispName="Jtest" toolId="jtest" toolName="DTP Engine for Java" toolVer="2024.2.0" user="dtang">
    <TestConfig machine="CD-DTANG" name="Unit Tests" pseudoUrl="builtin://Unit Tests" user="dtang"/>
    <Authors>
       <Author id="dev1" name="dtang"/>
@@ -24,7 +24,7 @@
    <Scope>
       <Repositories/>
       <Locations>
-         <Loc binHash="1125648815;4019126642;3238177698" covId="516238227,1495237307,-1072665781" hash="1741334343" locRef="1" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/Calculator.java" sym=".Calculator$Screen$Brightness:-1072665781;.Calculator$Screen:1495237307;.Calculator:516238227" totLns="27" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/Calculator.java"/>
+         <Loc binHash="2803910048;1902247076;3958753913" covId="516238233,1495237313,-1072665775" hash="841989303" locRef="1" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/Calculator.java" sym=".Calculator$Screen$Brightness:-1072665775;.Calculator$Screen:1495237313;.Calculator:516238233" totLns="33" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/Calculator.java"/>
          <Loc binHash="3583135400" covId="1022206551" hash="-662881149" locRef="2" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/Convertor.java" sym="com.parasoft.Convertor:1022206551" totLns="14" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/com/parasoft/Convertor.java"/>
          <Loc binHash="2504401132" covId="-563343906" hash="-1958751415" locRef="3" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/another/Convertor.java" sym="com.parasoft.another.Convertor:-563343906" totLns="17" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/com/parasoft/another/Convertor.java"/>
          <Loc binHash="557083426" covId="31915879" hash="-1706285489" locRef="4" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/interfaces/IConvertor.java" sym="com.parasoft.interfaces.IConvertor:31915879" totLns="5" uri="file:/D:/Download/project/JavaProjectTemplate/src/main/java/com/parasoft/interfaces/IConvertor.java"/>
@@ -96,23 +96,23 @@
 
       
    <ExecutedTestsDetails type="UT">
-      <Total total="8" pass="8" name="通过 / 合计" time="0:00:00.109" authErr="0;" authFail="0;">
-         <Project total="8" pass="8" name="com.parasoft:project-with-default-package" time="0:00:00.109" authErr="0;" id="com.parasoft:project-with-default-package" authFail="0;">
-            <TestSuite locRef="7" root="true" name="com.parasoft.nested.PhoneFactoryTest" id="com.parasoft.nested.PhoneFactoryTest" total="1" pass="1" time="0:00:00.014" authErr="0;" authFail="0;">
-               <Test auth="dtang" locRef="7" name="getIphone4()" startTime="1739154651253" id="com.parasoft.nested.PhoneFactoryTest|+|com.parasoft:project-with-default-package#PhoneFactoryTest.java#com.parasoft.nested.PhoneFactoryTest#getIphone4()" startPos="5" startLn="9" endLn="15" endPos="5" status="pass" total="1" pass="1" time="0:00:00.014" authErr="0;" authFail="0;"/>
+      <Total total="8" pass="8" name="通过 / 合计" time="0:00:00.100" authErr="0;" authFail="0;">
+         <Project total="8" pass="8" name="com.parasoft:project-with-default-package" time="0:00:00.100" authErr="0;" id="com.parasoft:project-with-default-package" authFail="0;">
+            <TestSuite locRef="7" root="true" name="com.parasoft.nested.PhoneFactoryTest" id="com.parasoft.nested.PhoneFactoryTest" total="1" pass="1" time="0:00:00.012" authErr="0;" authFail="0;">
+               <Test auth="dtang" locRef="7" name="getIphone4()" startTime="1739154789456" id="com.parasoft.nested.PhoneFactoryTest|+|com.parasoft:project-with-default-package#PhoneFactoryTest.java#com.parasoft.nested.PhoneFactoryTest#getIphone4()" startPos="5" startLn="9" endLn="15" endPos="5" status="pass" total="1" pass="1" time="0:00:00.012" authErr="0;" authFail="0;"/>
             </TestSuite>
-            <TestSuite locRef="8" root="true" name="CalculatorTest" id="CalculatorTest" total="2" pass="2" time="0:00:00.073" authErr="0;" authFail="0;">
-               <Test auth="dtang" locRef="8" name="testAdd()" startTime="1739154651126" id="CalculatorTest|+|com.parasoft:project-with-default-package#CalculatorTest.java#CalculatorTest#testAdd()" startPos="5" startLn="7" endLn="12" endPos="5" status="pass" total="1" pass="1" time="0:00:00.071" authErr="0;" authFail="0;"/>
-               <Test auth="dtang" locRef="8" name="testMinus()" startTime="1739154651200" id="CalculatorTest|+|com.parasoft:project-with-default-package#CalculatorTest.java#CalculatorTest#testMinus()" startPos="5" startLn="14" endLn="19" endPos="5" status="pass" total="1" pass="1" time="0:00:00.002" authErr="0;" authFail="0;"/>
+            <TestSuite locRef="8" root="true" name="CalculatorTest" id="CalculatorTest" total="2" pass="2" time="0:00:00.070" authErr="0;" authFail="0;">
+               <Test auth="dtang" locRef="8" name="testAdd()" startTime="1739154789329" id="CalculatorTest|+|com.parasoft:project-with-default-package#CalculatorTest.java#CalculatorTest#testAdd()" startPos="5" startLn="7" endLn="12" endPos="5" status="pass" total="1" pass="1" time="0:00:00.068" authErr="0;" authFail="0;"/>
+               <Test auth="dtang" locRef="8" name="testMinus()" startTime="1739154789403" id="CalculatorTest|+|com.parasoft:project-with-default-package#CalculatorTest.java#CalculatorTest#testMinus()" startPos="5" startLn="14" endLn="19" endPos="5" status="pass" total="1" pass="1" time="0:00:00.002" authErr="0;" authFail="0;"/>
             </TestSuite>
-            <TestSuite locRef="9" root="true" name="com.parasoft.another.ConvertorTest" id="com.parasoft.another.ConvertorTest" total="2" pass="2" time="0:00:00.011" authErr="0;" authFail="0;">
-               <Test auth="dtang" locRef="9" name="convertToString()" startTime="1739154651221" id="com.parasoft.another.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.another.ConvertorTest#convertToString()" startPos="5" startLn="9" endLn="14" endPos="5" status="pass" total="1" pass="1" time="0:00:00.003" authErr="0;" authFail="0;"/>
-               <Test auth="dtang" locRef="9" name="name()" startTime="1739154651212" id="com.parasoft.another.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.another.ConvertorTest#name()" startPos="5" startLn="16" endLn="21" endPos="5" status="pass" total="1" pass="1" time="0:00:00.008" authErr="0;" authFail="0;"/>
+            <TestSuite locRef="9" root="true" name="com.parasoft.another.ConvertorTest" id="com.parasoft.another.ConvertorTest" total="2" pass="2" time="0:00:00.009" authErr="0;" authFail="0;">
+               <Test auth="dtang" locRef="9" name="convertToString()" startTime="1739154789426" id="com.parasoft.another.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.another.ConvertorTest#convertToString()" startPos="5" startLn="9" endLn="14" endPos="5" status="pass" total="1" pass="1" time="0:00:00.002" authErr="0;" authFail="0;"/>
+               <Test auth="dtang" locRef="9" name="name()" startTime="1739154789417" id="com.parasoft.another.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.another.ConvertorTest#name()" startPos="5" startLn="16" endLn="21" endPos="5" status="pass" total="1" pass="1" time="0:00:00.007" authErr="0;" authFail="0;"/>
             </TestSuite>
-            <TestSuite locRef="10" root="true" name="com.parasoft.ConvertorTest" id="com.parasoft.ConvertorTest" total="3" pass="3" time="0:00:00.011" authErr="0;" authFail="0;">
-               <Test auth="dtang" locRef="10" name="convertToString1()" startTime="1739154651236" id="com.parasoft.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.ConvertorTest#convertToString1()" startPos="5" startLn="9" endLn="14" endPos="5" status="pass" total="1" pass="1" time="0:00:00.006" authErr="0;" authFail="0;"/>
-               <Test auth="dtang" locRef="10" name="convertToString2()" startTime="1739154651243" id="com.parasoft.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.ConvertorTest#convertToString2()" startPos="5" startLn="16" endLn="21" endPos="5" status="pass" total="1" pass="1" time="0:00:00.003" authErr="0;" authFail="0;"/>
-               <Test auth="dtang" locRef="10" name="convertToString3()" startTime="1739154651247" id="com.parasoft.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.ConvertorTest#convertToString3()" startPos="5" startLn="23" endLn="28" endPos="5" status="pass" total="1" pass="1" time="0:00:00.002" authErr="0;" authFail="0;"/>
+            <TestSuite locRef="10" root="true" name="com.parasoft.ConvertorTest" id="com.parasoft.ConvertorTest" total="3" pass="3" time="0:00:00.009" authErr="0;" authFail="0;">
+               <Test auth="dtang" locRef="10" name="convertToString1()" startTime="1739154789438" id="com.parasoft.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.ConvertorTest#convertToString1()" startPos="5" startLn="9" endLn="14" endPos="5" status="pass" total="1" pass="1" time="0:00:00.004" authErr="0;" authFail="0;"/>
+               <Test auth="dtang" locRef="10" name="convertToString2()" startTime="1739154789444" id="com.parasoft.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.ConvertorTest#convertToString2()" startPos="5" startLn="16" endLn="21" endPos="5" status="pass" total="1" pass="1" time="0:00:00.003" authErr="0;" authFail="0;"/>
+               <Test auth="dtang" locRef="10" name="convertToString3()" startTime="1739154789449" id="com.parasoft.ConvertorTest|+|com.parasoft:project-with-default-package#ConvertorTest.java#com.parasoft.ConvertorTest#convertToString3()" startPos="5" startLn="23" endLn="28" endPos="5" status="pass" total="1" pass="1" time="0:00:00.002" authErr="0;" authFail="0;"/>
             </TestSuite>
          </Project>
       </Total>
@@ -125,9 +125,9 @@
             <CvgType cvgDecor="Marker" dispCvg="可执行行" dispId="行" dispName="行覆盖率" dispNoCvg="no 可执行行" id="LC"/>
          </Types>
          <CvgStats>
-            <CvgInfo elem="合计" exp="1" num="32" total="40" val="80">
-               <CvgInfo elem="com.parasoft:project-with-default-package" exp="1" num="32" total="40" val="80">
-                  <CvgInfo elem="src/main/java" exp="1" num="32" total="40" val="80">
+            <CvgInfo elem="合计" exp="1" num="36" total="44" val="82">
+               <CvgInfo elem="com.parasoft:project-with-default-package" exp="1" num="36" total="44" val="82">
+                  <CvgInfo elem="src/main/java" exp="1" num="36" total="44" val="82">
                      <CvgInfo elem="com/parasoft" exp="1" num="18" total="26" val="69">
                         <CvgInfo elem="another" exp="1" num="3" total="3" val="100">
                            <CvgInfo elem="Convertor.java" num="3" total="3" val="100">
@@ -174,8 +174,8 @@
                            </CvgInfo>
                         </CvgInfo>
                      </CvgInfo>
-                     <CvgInfo elem="Calculator.java" num="14" total="14" val="100">
-                        <CvgInfo elem="Calculator" num="14" total="14" val="100">
+                     <CvgInfo elem="Calculator.java" num="18" total="18" val="100">
+                        <CvgInfo elem="Calculator" num="18" total="18" val="100">
                            <CvgInfo elem="Calculator$Screen" num="9" total="9" val="100">
                               <CvgInfo elem="Calculator$Screen$Brightness" num="4" total="4" val="100">
                                  <CvgInfo elem="Calculator$Screen$Brightness( java.lang.String, int )" num="1" total="1" val="100"/>
@@ -186,7 +186,7 @@
                               <CvgInfo elem="showResult( int )" num="2" total="2" val="100"/>
                            </CvgInfo>
                            <CvgInfo elem="Calculator()" num="2" total="2" val="100"/>
-                           <CvgInfo elem="add( int, int )" num="3" total="3" val="100"/>
+                           <CvgInfo elem="add( int, int )" num="7" total="7" val="100"/>
                         </CvgInfo>
                      </CvgInfo>
                   </CvgInfo>
