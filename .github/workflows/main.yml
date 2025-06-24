@@ -21,6 +21,6 @@ jobs:
 
 
       - name: Parasoft Coverage
-        uses: parasoft/parasoft-coverage-action@don_cicd985
+        uses: parasoft/parasoft-coverage-action@don_cicd1045
         with:
             report: '**/coverage.xml'          
